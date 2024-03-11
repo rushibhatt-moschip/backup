@@ -1,0 +1,59 @@
+Build started at 2024-03-11T14:43:11.159877
+Main binary: /usr/bin/python3
+Build Options: -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.61.2
+Source dir: /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template
+Build dir: /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build
+Build type: native build
+Project name: gst-template
+Project version: 1.19.0.1
+C compiler for the host machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the host machine: cc ld.bfd 2.38
+C compiler for the build machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the build machine: cc ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency gstreamer-1.0 found: YES 1.20.3 (cached)
+Dependency gstreamer-video-1.0 found: YES 1.20.1 (cached)
+Dependency gstreamer-base-1.0 found: YES 1.20.3 (cached)
+Running compile:
+Working directory:  /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build/meson-private/tmpp0mtqxwy
+Command line:  cc /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build/meson-private/tmpp0mtqxwy/testfile.c -o /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build/meson-private/tmpp0mtqxwy/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Configuring config.h using configuration
+Dependency gstreamer-audio-1.0 found: YES 1.20.1 (cached)
+Build targets in project: 4
+
+gst-template 1.19.0.1
+
+  User defined options
+    backend: ninja
+
+Found ninja-1.10.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build/meson-private/tmpcklpvyb9
+Command line:  cc /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build/meson-private/tmpcklpvyb9/testfile.c -o /home/rushi/practice/gstreamer/PLUGIN-GUIDE/gst-template/build/meson-private/tmpcklpvyb9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
